@@ -1,0 +1,8 @@
+[project]
+name = "error-driven-python-lab"
+version = "0.1.0"
+description = "失敗するテストからPythonのエラーを学ぶ教材"
+requires-python = ">=3.12"
+
+[tool.unittest]
+start-directory = "tests"
