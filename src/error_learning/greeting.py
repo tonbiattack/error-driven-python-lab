@@ -1,2 +1,3 @@
 def build_greeting(name: str | None) -> str:
-    return f"Hello, {name or 'guest'}!"
+    resolved_name = "guest" if name is None else name
+    return f"Hello, {resolved_name}!"
